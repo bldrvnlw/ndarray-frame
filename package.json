@@ -1,0 +1,31 @@
+{
+  "name": "ndarray-frame",
+  "version": "0.1.0",
+  "description": "A scijs ndarray based dataframe for dealing with large (e.g. -omics) data. The emphasis is on speed rather than flexibility.",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "dafaframe",
+    "ndarray"
+  ],
+  "author": "Baldur van Lew",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ndarray-concat-cols": "^1.0.0",
+    "ndarray-tests": "^1.3.0",
+    "zeros": "^1.0.0"
+  },
+  "dependencies": {
+    "ndarray": "^1.0.18",
+    "ndarray-fill": "^1.0.2",
+    "ndarray-hash": "^1.0.0",
+    "ndarray-scratch": "^1.2.0"
+  }
+}
